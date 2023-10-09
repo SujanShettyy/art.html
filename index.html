@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+         <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+
+            .art{
+                height: 452px;
+                width: 640px;
+                display: grid;
+                background-color: white;
+                grid-template-columns: 200px 170px 100px 70px 30px 40px;
+                grid-template-rows: 210px 150px 80px 60px 30px 50px ;
+                gap: 6px;
+            }
+
+            .A{
+                background-color: red;
+            }
+            .B{
+                background-color: aqua;
+                grid-area: 2/2/2;
+            }
+            .C{
+                background-color: grey;
+                grid-column: span 3;
+            }
+            .D{
+                background-color: yellow;
+                grid-row: 2;
+            }
+            .E{
+                background-color: turquoise;
+            }
+            .F{
+                background-color: blue;
+                border-bottom: 10px solid wheat;
+            }
+            .G{
+                background-color: lightseagreen;
+                grid-column: span 2;
+            }
+            .H{
+                background-color:rgb(233, 103, 17) ;
+            }
+            .I{
+                background-color: rgb(12, 221, 81);
+                
+            }
+            .J{
+                background-color: deepskyblue;
+            }
+            .K{
+                background-color: darkblue;
+                grid-column: span 3;
+            }
+            .L{
+                background-color: blueviolet;
+                grid-column: span 2 ;
+            
+            }
+
+         </style>
+</head>
+<body>
+    <div class="art">
+        <div class="A"></div>
+        <div class="B"></div>
+        <div class="C"></div>
+        <div class="D"></div>
+        <div class="E"></div>
+        <div class="F"></div>
+        <div class="G"></div>
+        <div class="H"></div>
+        <div class="I"></div>
+        <div class="J"></div>
+        <div class="K"></div>
+        <div class="L"></div>
+    </div>
+</body>
+</html>
